@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+/*body{
+  background-image: linear-gradient(blueviolet, blue);
+ 
+}*/
+
+.container{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin:20px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  
+  background-image: linear-gradient(blueviolet, blue);
+
+  
+}
+
+.div1{
+  width: 200px;
+  height:200px;
+  
+  flex-grow: 0;
+  flex-shrink: 0;
+  border: solid black 2px;
+  font-size: 2em;
+  display:flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: #FC0 1px 0 10px;
+ 
+  
+  transition: background-color,font-family;
+  
+}
+.div1:hover{
+
+  background-color:red;
+  cursor:grab;
+  font-family:  'Times New Roman';
+}
+
+
+.div2{
+  width: 200px;
+  height:200px;
+
+  flex-grow: 0;
+  flex-shrink: 0;
+  border: solid black 2px;
+  font-size: 2em;
+  display:flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: #FC0 1px 0 10px;
+  
+    
+}
+.div2:hover{
+  background-color:red;
+  cursor:grab;
+  font-family:  'Times New Roman';
+}
+.div3{
+  width: 200px;
+  height:200px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border: solid black 2px;
+  
+  font-size: 2em;
+  display:flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: #FC0 1px 0 10px;
+  
+}
+.div3:hover{
+  background-color:red;
+  cursor:grab;
+  font-family:  'Times New Roman';
+  
+}
+.div4{
+  width: 200px;
+  height:200px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border: solid black 2px;
+  
+}
+.div4:hover{
+  border: solid yellow 10px;
+  cursor:progress;
+ 
+}
+
+.div5{
+  width: 200px;
+  height:200px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border: solid black 2px;
+  cursor:grab;
+}
+.div5:hover{
+  border: solid yellow 10px;
+  cursor:progress;
+  
+}
+.div6{
+  width: 200px;
+  height:200px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border: solid black 2px;
+  cursor:grab;
+}
+.div6:hover{
+  border: solid yellow 10px;
+  cursor:progress;
+ 
+  
+}
+@media all and (max-width:1200px){
+  .div6 {
+    display: none;
+  }
+}
+@media all and (max-width:1000px){
+  .div5 {
+    display: none;
+  }
+}
+@media all and (max-width:800px){
+  .div4 {
+    display: none;
+  }
+}
+@media all and (max-width:600px){
+  .div3{
+    display: none;
+  }
+}
+@media all and (max-width:400px){
+  .div2{
+    display: none;
+  }
+}
+
+
+
+
